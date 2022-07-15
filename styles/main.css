@@ -958,4 +958,201 @@ body {
     margin-bottom: 50px;
     text-align: center;
   }
+}
+.management__inner {
+  max-width: 1110px;
+}
+
+.management__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-width: 1110px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.management__item {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.management__item--center {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.management__text-content {
+  max-width: 486px;
+}
+
+.management__title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.management__title::before {
+  content: "Effortless Validation for";
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.management__space-box {
+  width: 131px;
+  height: 131px;
+}
+
+.management__subtitile {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.management__text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.management__text--unusual {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  margin-top: 23px;
+  margin-bottom: 30px;
+}
+
+.management__mini-box {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.management__mini-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 385px;
+}
+
+@media only screen and (max-width: 1070px) {
+  .management__list {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .management__item {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 560px;
+    flex-direction: column-reverse;
+    margin-bottom: 0px;
+    margin-top: 50px;
+  }
+  .management__item--center {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 560px;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-top: 50px;
+  }
+  .management__text-content {
+    margin-top: 30px;
+  }
+  .management__space-box {
+    height: 16px;
+    width: 1px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .management__img {
+    width: 280px;
+    height: 210px;
+  }
+  .management__text-content {
+    max-width: 280px;
+    margin-top: 30px;
+  }
+  .management__title {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0;
+  }
+  .management__title::before {
+    content: "Effortless Validation for";
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .management__subtitile {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  .management__text {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  .management__text--unusual {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    margin-top: 23px;
+    margin-bottom: 30px;
+  }
+  .management__mini-box {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .management__mini-text {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    max-width: 385px;
+    margin-left: 30px;
+  }
+  .management__mini-img {
+    width: 35px;
+    height: 35px;
+  }
 }/*# sourceMappingURL=main.css.map */
