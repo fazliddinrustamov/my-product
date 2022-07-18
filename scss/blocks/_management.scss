@@ -83,6 +83,18 @@
   max-width: 385px;
 }
 
+.management__mini-img {
+  width: 35px;
+  height: 35px;
+  transition: 0.5s ease;
+}
+
+.management__mini-img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  box-shadow: 5px 10px 50px 5px;
+}
+
 @include breakpoint-down(1070px) {
   .management__list {
     margin-top: 50px;
